@@ -11,9 +11,9 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  count = 0
+  count = 1
   
   attendees.each do |x|
-    
+    puts 
   end
 end
