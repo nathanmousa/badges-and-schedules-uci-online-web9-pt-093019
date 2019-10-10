@@ -14,6 +14,6 @@ def assign_rooms(attendees)
   count = 1
   
   attendees.each do |x|
-    puts 
+    puts "Hello, _____! You'll be assigned to room _____!"
   end
 end
