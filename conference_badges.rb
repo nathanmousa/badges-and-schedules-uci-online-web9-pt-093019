@@ -27,5 +27,11 @@ end
 
 
 def printer
+  attendees.collect do |x|
+    badge_maker(x)
+  end
   
+  attendees.collect do |x|
+    badge_maker(x)
+  end
 end
