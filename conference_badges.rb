@@ -11,5 +11,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(speakers)
+  count = 0
+  
   
 end
