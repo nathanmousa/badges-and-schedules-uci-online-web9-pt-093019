@@ -26,7 +26,7 @@ end
 
 
 
-def printer
+def printer(attendees, room)
   attendees.collect do |x|
     badge_maker(x)
   end
