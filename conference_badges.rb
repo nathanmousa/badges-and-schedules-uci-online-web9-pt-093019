@@ -27,11 +27,5 @@ end
 
 
 def printer(attendees, rooms)
-  attendees.collect do |x|
-    badge_maker(x)
-  end
   
-  rooms.collect do |x|
-    assign_rooms(x)
-  end
 end
